@@ -1,4 +1,33 @@
 {
   "name": "recipe-page",
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.9.1",
+  "scripts": {
+    "build:css": "tailwindcss -i ./styles.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "lisshat <mucheraimani@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "browserslist": "^4.24.5",
+    "caniuse-lite": "^1.0.30001718",
+    "electron-to-chromium": "^1.5.155",
+    "escalade": "^3.2.0",
+    "fraction.js": "^4.3.7",
+    "nanoid": "^3.3.11",
+    "node-releases": "^2.0.19",
+    "normalize-range": "^0.1.2",
+    "picocolors": "^1.1.1",
+    "postcss-value-parser": "^4.2.0",
+    "source-map-js": "^1.2.1",
+    "update-browserslist-db": "^1.1.3"
+  }
 }
