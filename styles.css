@@ -53,7 +53,7 @@
     font-size: 1.2rem;
     margin: 2rem 0;
     padding: 1.5rem;
-    width: max-content;
+    max-width: 600px;
     border: 1px solid #333;
     border-radius: 10px;
     background-color: #fef9ef;
@@ -248,6 +248,12 @@ footer a {
         padding: 1rem;
         margin: 0;
     }
+
+        .tips {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 1rem;
+            margin: 1rem auto;   }
 
     .navbar {
         flex-direction: column;
